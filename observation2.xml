@@ -1,0 +1,72 @@
+<observation>
+    <systemIdentifier> Ravensthorpe_1539240811674 </systemIdentifier>
+    <propertyType> Identifier </propertyType>
+    <propertyQualifier>Persistent</propertyQualifier>
+    <protocolPointer>Ravensthorpe_1539240805918</protocolPointer>
+    <primaryFeaturePointer> Ravensthorpe_1539240811666 </primaryFeaturePointer>
+    <agentPointer>Ravensthorpe_1539240805901</agentPointer>
+    <agentPointer>Ravensthorpe_1539240805903</agentPointer>
+    <agentPointer>Ravensthorpe_1539240805906</agentPointer>
+    <phenomenonTime>
+        <items>
+            <value>15/02/2007</value>
+            <type>BASEVALUE</type>
+            <primitive>datetime</primitive>
+        </items>
+    </phenomenonTime>
+    <result>WARNING No OM Modelled result</result>
+</observation>
+<observation>
+    <systemIdentifier> Ravensthorpe_1539240811674 </systemIdentifier>
+    <propertyType> Location </propertyType>
+    <propertyQualifier>Spatial Point</propertyQualifier>
+    <protocolPointer>Ravensthorpe_1539240805918</protocolPointer>
+    <primaryFeaturePointer> Ravensthorpe_1539240811666 </primaryFeaturePointer>
+    <agentPointer>Ravensthorpe_1539240805901</agentPointer>
+    <agentPointer>Ravensthorpe_1539240805903</agentPointer>
+    <agentPointer>Ravensthorpe_1539240805906</agentPointer>
+    <phenomenonTime>
+        <items>
+            <value>15/02/2007</value>
+            <type>BASEVALUE</type>
+            <primitive>datetime</primitive>
+        </items>
+    </phenomenonTime>
+    <result>WARNING No OM Modelled result</result>
+</observation>
+<observation>
+    <systemIdentifier> Ravensthorpe_1539240811674 </systemIdentifier>
+    <propertyType> Geometry </propertyType>
+    <propertyQualifier>Area</propertyQualifier>
+    <protocolPointer>Ravensthorpe_1539240805918</protocolPointer>
+    <primaryFeaturePointer> Ravensthorpe_1539240811666 </primaryFeaturePointer>
+    <agentPointer>Ravensthorpe_1539240805901</agentPointer>
+    <agentPointer>Ravensthorpe_1539240805903</agentPointer>
+    <agentPointer>Ravensthorpe_1539240805906</agentPointer>
+    <phenomenonTime>
+        <items>
+            <value>15/02/2007</value>
+            <type>BASEVALUE</type>
+            <primitive>datetime</primitive>
+        </items>
+    </phenomenonTime>
+    <result>WARNING No OM Modelled result</result>
+</observation>
+<observation>
+    <systemIdentifier> Ravensthorpe_1539240811674 </systemIdentifier>
+    <propertyType> Geometry </propertyType>
+    <propertyQualifier>Shape</propertyQualifier>
+    <protocolPointer>Ravensthorpe_1539240805918</protocolPointer>
+    <primaryFeaturePointer> Ravensthorpe_1539240811666 </primaryFeaturePointer>
+    <agentPointer>Ravensthorpe_1539240805901</agentPointer>
+    <agentPointer>Ravensthorpe_1539240805903</agentPointer>
+    <agentPointer>Ravensthorpe_1539240805906</agentPointer>
+    <phenomenonTime>
+        <items>
+            <value>15/02/2007</value>
+            <type>BASEVALUE</type>
+            <primitive>datetime</primitive>
+        </items>
+    </phenomenonTime>
+    <result>WARNING No OM Modelled result</result>
+</observation>

@@ -1,0 +1,43 @@
+prefix ap: <http://www.aekos.org.au/ontology/1.0.0/tern_ausplots#>
+prefix rdfs: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+prefix xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX aekos: <http://www.aekos.org.au/ontology/1.0.0#>
+PREFIX abares_fgc: <http://www.aekos.org.au/ontology/1.0.0/abares_fgc#>
+PREFIX adelaide_koonamore: <http://www.aekos.org.au/ontology/1.0.0/adelaide_koonamore#>
+PREFIX aekos_common: <http://www.aekos.org.au/ontology/1.0.0/aekos_common#>
+PREFIX dewnr_bdbsa: <http://www.aekos.org.au/ontology/1.0.0/dewnr_bdbsa#>
+PREFIX dewnr_roadsideveg: <http://www.aekos.org.au/ontology/1.0.0/dewnr_roadsideveg#>
+PREFIX dpipwe_platypus: <http://www.aekos.org.au/ontology/1.0.0/dpipwe_platypus#>
+PREFIX oeh_vis: <http://www.aekos.org.au/ontology/1.0.0/oeh_vis#>
+PREFIX qld_corveg: <http://www.aekos.org.au/ontology/1.0.0/qld_corveg#>
+PREFIX tern_ausplots: <http://www.aekos.org.au/ontology/1.0.0/tern_ausplots#>
+PREFIX tern_ausplots_forests: <http://www.aekos.org.au/ontology/1.0.0/tern_ausplots_forests#>
+PREFIX tern_natt: <http://www.aekos.org.au/ontology/1.0.0/tern_natt#>
+PREFIX tern_swatt: <http://www.aekos.org.au/ontology/1.0.0/tern_swatt#>
+PREFIX tern_trend: <http://www.aekos.org.au/ontology/1.0.0/tern_trend#>
+PREFIX uq_supersites_cover: <http://www.aekos.org.au/ontology/1.0.0/uq_supersites_cover#>
+PREFIX usyd_derg: <http://www.aekos.org.au/ontology/1.0.0/usyd_derg#>
+PREFIX wadec_ravensthorpe: <http://www.aekos.org.au/ontology/1.0.0/wadec_ravensthorpe#>
+PREFIX tern_atn_bats: <http://www.aekos.org.au/ontology/1.0.0/tern_atn_bats#>
+PREFIX api: <http://www.aekos.org.au/api/1.0#>
+PREFIX tern_atn_bats: <http://www.aekos.org.au/ontology/1.0.0/tern_atn_bats#>
+
+#Get All Observations from the target dataset
+
+SELECT ?observations
+#FROM aekos_common: 
+#FROM wadec_ravensthorpe:
+FROM %TARGET_DATASET%:
+
+WHERE{
+  ?s aekos:entitydisplay ?o .
+  ?o ?OM_Type ?observations .
+  VALUES ?OM_Type {
+  aekos:omobservation
+  #aekos:omfeature
+  #aekos:omrelationship
+  #aekos:metadata
+  #aekos:survey
+  }
+}
+#LIMIT 500

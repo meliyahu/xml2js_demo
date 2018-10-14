@@ -1,0 +1,55 @@
+
+<observation>
+    <systemIdentifier>Ravensthorpe_1539049973999</systemIdentifier>
+    <propertyType>Identifier</propertyType>
+    <propertyQualifier>Persistent</propertyQualifier>
+    <protocolPointer>Ravensthorpe_1539049928203</protocolPointer>
+    <primaryFeaturePointer>Ravensthorpe_1539049973995</primaryFeaturePointer>
+    <agentPointer>Ravensthorpe_1539049928188</agentPointer>
+    <agentPointer>Ravensthorpe_1539049928190</agentPointer>
+    <agentPointer>Ravensthorpe_1539049928193</agentPointer>
+    <phenomenonTime>
+        <value>SQDATETIME-15/03/2007</value>
+    </phenomenonTime>
+    <result>
+        <value>SQTEXT-aekos.org.au/collection/wa.gov.au/ravensthorpe/R007/sampledarea</value>
+    </result>
+</observation>
+<observation>
+    <systemIdentifier>Ravensthorpe_1539049973999</systemIdentifier>
+    <propertyType>Location</propertyType>
+    <propertyQualifier>Spatial Point</propertyQualifier>
+    <protocolPointer>Ravensthorpe_1539049928203</protocolPointer>
+    <primaryFeaturePointer>Ravensthorpe_1539049973995</primaryFeaturePointer>
+    <agentPointer>Ravensthorpe_1539049928188</agentPointer>
+    <agentPointer>Ravensthorpe_1539049928190</agentPointer>
+    <agentPointer>Ravensthorpe_1539049928193</agentPointer>
+    <phenomenonTime>
+        <value>SQDATETIME-15/03/2007</value>
+    </phenomenonTime>
+    <result>
+        <errorText>Spatial Point not defined yet</errorText>
+    </result>
+</observation>
+<observation>
+    <systemIdentifier>Ravensthorpe_1539049932319</systemIdentifier>
+    <propertyType>Name</propertyType>
+    <propertyQualifier>Determined Species Name</propertyQualifier>
+    <protocolPointer>Ravensthorpe_1539049928206</protocolPointer>
+    <primaryFeaturePointer>Ravensthorpe_1539049932312</primaryFeaturePointer>
+    <agentPointer>Ravensthorpe_1539049928188</agentPointer>
+    <agentPointer>Ravensthorpe_1539049928190</agentPointer>
+    <agentPointer>Ravensthorpe_1539049928193</agentPointer>
+    <phenomenonTime>
+        <value>SQDATETIME-15/02/2007</value>
+    </phenomenonTime>
+    <result>
+        <value>
+            <I>Boronia oxyantha</I>
+            var.
+            <I>brevicalyx</I>
+            (Benth.) Paul G.Wilson
+        </value>
+        <standard>Determined Species Concept</standard>
+    </result>
+</observation>
